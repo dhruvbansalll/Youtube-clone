@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* -------------------------Defaults CSS Properties always to apply----------------------- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins' , 'sans-serif';
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+
+/* --------------------------Defaults CSS Properties always to apply---------------------- */
+
+
+
+
+
+/* -----------------------------------------Navbar--------------------------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    z-index: 1px;
+}
+
+
+/* -----------Left Nav CSS----------- */
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.menu-icon img{
+    height: 18px;
+}
+.yt-logo img{
+    height: 56px;
+    margin: 0 20px;
+}
+/* -----------Left Nav CSS------------ */
+
+
+/* -----------Mid Nav CSS------------- */
+.nav-mid{
+    display: flex;
+    align-items: center; 
+}
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    width: 550px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+.search-area{
+    padding: 0 0 0 25px; 
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    background: transparent;
+    font-size: 20px;
+}
+.search-icon{
+    height: 20px;
+    margin: 0 5px 2px 0;
+}
+.voice-search-icon img{
+    margin: 7px;
+    height: 23px;
+}
+/* ------------Mid Nav CSS------------- */
+
+
+/* -----------Right Nav CSS------------ */
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.upload-icon img, .more-icon img, .notification-icon img, .user-icon img{
+    height: 33px;
+    margin-right: 13px;
+    border-radius: 50%;
+}
+/* -----------Right Nav CSS----------- */
+
+/* -----------------------------------------Navbar--------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------Sidebar------------------------------------- */
+
+.sidebar{
+    margin: 0px 5px 0 0;
+    padding: 10px 2% 0 15px;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    box-shadow: 0px 8px 10px 0px rgb(0 0 0 / 20%);
+}
+
+
+/* -------------Shortcut Links--------------- */
+.shortcut-links{
+    display: flex;
+    flex-direction: column;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut-links a img{
+    width: 30px;
+    margin-right: 20px;
+}
+/* -------------Shortcut Links--------------- */
+
+
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+}
+
+
+/* -------------Subscribed List-------------- */
+.subscribed-list h3{
+    margin: 20px 0px;
+    font-size:  15px;
+    font-weight: bolder;
+    font-family: 'poppins', sans-serif ;
+    color: #5a5a5a;
+}
+.subscribed-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.subscribed-list a img{
+    margin: 0 15px 0 0;
+    width: 35px;
+    border-radius: 50%;
+}
+/* -------------Subscribed List-------------- */
+
+
+/* -------------Small Sidebar(By JavaScript)---------------- */
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar a p{
+    display: none;
+}
+.small-sidebar hr{
+    margin-bottom: 25px;
+    width: 100%;
+}
+.small-sidebar h3{
+    display: none;
+}
+/* -------------Small Sidebar(By JavaScript)---------------- */
+
+/* -------------------------------------------Sidebar------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------Main Body------------------------------------- */
+
+.main-body{
+    background-color: white;
+    padding: 20px 2%  20px 17%;
+}
+
+
+/* -------------Large Main Body(By JavaScript)---------- */
+.large-main-body{
+    padding: 20px  2% 20px 7%;
+}
+/* -------------Large Main Body(By JavaScript)---------- */
+
+
+/* -------------Banner-------------- */
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+/* -------------Banner-------------- */
+
+
+/* -------------Video List-------------- */
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.video-list img{
+    width: 100%;
+    border-radius: 15px;
+}
+.video-list .video-info-box{
+    display: flex;
+    align-items: flex-start;
+    margin: 7px 0 0 7px;
+}
+.video-list .video-info-box img{
+    margin: 0 10px 0 0;
+    width: 35px;
+    border-radius: 50%;
+}
+.video-info{
+    color: #5a5a5a;
+    font-size: 14px;
+}
+.video-info a{
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 600;
+}
+/* -------------Video List-------------- */
+
+/* -------------------------------------------Main Body------------------------------------- */
